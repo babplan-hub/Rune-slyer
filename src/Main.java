@@ -16,6 +16,7 @@ public class Main {
             window.setLocationRelativeTo(null);
             window.setVisible(true);
 
+            BackgroundMusic.start();
             game.startGameThread();
         });
     }
